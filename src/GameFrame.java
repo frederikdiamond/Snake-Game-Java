@@ -1,9 +1,9 @@
-import javax.swing.*;
+import javax.swing.JFrame;
 
 public class GameFrame extends JFrame {
     // Constructor
     GameFrame() {
-        this.add(new GameFrame());
+        this.add(new GamePanel());
         this.setTitle("Snake");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
